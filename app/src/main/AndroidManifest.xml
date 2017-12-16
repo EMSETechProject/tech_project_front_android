@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.camarasa.robin.nutritivecoach">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.Activities.Welcome.LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Activities.Inscription.Inscription_1_0_activity" />
+        <activity android:name=".Activities.Activities.Welcome.WelcomeActivity" />
+        <activity android:name=".Activities.Activities.Inscription.Inscription_2_0_activity" />
+        <activity android:name=".Activities.Activities.Inscription.Inscription_3_0_activity" />
+        <activity android:name=".Activities.Activities.Inscription.Inscription_4_0_activity" />
+        <activity android:name=".Activities.Activities.Stats.StatsOptions" />
+        <activity android:name=".Activities.Activities.Stats.EnterWeight" />
+        <activity android:name=".Activities.Activities.Stats.YourStatistics" />
+        <activity android:name=".Activities.Activities.Meal.MealOption" />
+        <activity android:name=".Activities.Activities.Meal.AddRecipe" />
+        <activity android:name=".Activities.Activities.Meal.FoodData" />
+        <activity android:name=".Activities.Activities.Meal.MealIdea" />
+        <activity android:name=".Activities.Activities.Settings.Settings" />
+        <activity android:name=".Activities.Activities.Settings.SetPassword" />
+        <activity android:name=".Activities.Activities.Settings.SetObjectif"></activity>
+    </application>
+
+</manifest>

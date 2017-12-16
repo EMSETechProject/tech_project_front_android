@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.camarasa.robin.nutritivecoach.Activities.Activities.Meal.MealOption">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="288dp"
+        android:layout_height="54dp"
+        app:srcCompat="@mipmap/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddRecipe"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttons"
+        android:onClick="addRecipe"
+        android:text="@string/addrecipe"
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttonFoodData"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons"
+        android:onClick="foodData"
+        android:text="@string/food_data"
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonAddRecipe"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddRecipe" />
+
+    <Button
+        android:id="@+id/buttonMealIdea"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons"
+        android:onClick="mealIdea"
+        android:text="@string/meal_idea"
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonFoodData"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFoodData" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@mipmap/home" />
+
+</android.support.constraint.ConstraintLayout>

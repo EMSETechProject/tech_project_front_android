@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Nutritive Coach</string>
+    <string name="log_in">Log in</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="enter_pseudo">Enter pseudo</string>
+    <string name="enter_password">Enter password</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Password confirmation</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="weight">Weight (in kg)</string>
+    <string name="size">Size (in m)</string>
+    <string name="age">Age</string>
+    <string name="goal">Goal</string>
+    <string name="enter_size">Enter size</string>
+    <string name="enter_age">Enter age</string>
+    <string name="pork">Pork</string>
+    <string name="milk">Milk</string>
+    <string name="peanuts">Peanuts</string>
+    <string name="eggs">Eggs</string>
+    <string name="tree_nut">Tree nut</string>
+    <string name="shellfish">Shellfish</string>
+    <string name="wheat">Wheat</string>
+    <string name="soy">Soy</string>
+    <string name="fish">Fish</string>
+    <string name="objectif">Objectif</string>
+    <string name="allergies">Allergies</string>
+    <string name="weight_oblectif">Weight Objectif</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="your_stats">Your statistics</string>
+    <string name="add">Add</string>
+    <string name="addrecipe">Add Recipe</string>
+    <string name="food_data">Food Data</string>
+    <string name="meal_idea">Meal Idea</string>
+    <string name="change_password">Change password</string>
+    <string name="change_objecif">Change objectif</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="enter_old_pasword">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

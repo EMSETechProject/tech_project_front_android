@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="objectif_array">
+        <item>Slimming</item>
+        <item>Taking weight</item>
+        <item>Keeping my weight</item>
+        <item>Eating healthier</item>
+    </string-array>
+</resources>
