@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Welcome.WelcomeActivity;
-import com.camarasa.robin.nutritivecoach.Activities.Database.Objectif;
-import com.camarasa.robin.nutritivecoach.Activities.Database.User;
+import com.camarasa.robin.nutritivecoach.Activities.Model.Objectif;
+import com.camarasa.robin.nutritivecoach.Activities.Model.User;
 import com.camarasa.robin.nutritivecoach.R;
 
 public class Settings extends AppCompatActivity {

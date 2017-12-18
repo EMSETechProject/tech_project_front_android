@@ -16,6 +16,45 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
+    <Button
+        android:id="@+id/buttondessert"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttons"
+        android:onClick="dessert"
+        android:text=""
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMain" />
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttons"
+        android:onClick="main"
+        android:text=""
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEntrance" />
+
+    <Button
+        android:id="@+id/buttonEntrance"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons"
+        android:onClick="entrance"
+        android:text=""
+        android:textColor="@color/colorWrite"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="85dp"

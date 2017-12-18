@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Stats.EnterWeight;
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Welcome.WelcomeActivity;
+import com.camarasa.robin.nutritivecoach.Activities.Model.Generate;
 import com.camarasa.robin.nutritivecoach.R;
 
 public class MealOption extends AppCompatActivity {
@@ -22,17 +23,13 @@ public class MealOption extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void addRecipe(View view) {
-        Intent intent = new Intent(this, AddRecipe.class);
-        startActivity(intent);
-    }
-
     public void foodData(View view) {
         Intent intent = new Intent(this, FoodData.class);
         startActivity(intent);
     }
 
     public void mealIdea(View view) {
+        Generate generate = new Generate();
         Intent intent = new Intent(this, MealIdea.class);
         startActivity(intent);
     }

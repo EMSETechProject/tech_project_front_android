@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.camarasa.robin.nutritivecoach.Activities.Database.User;
+import com.camarasa.robin.nutritivecoach.Activities.Model.User;
 import com.camarasa.robin.nutritivecoach.Activities.ServeurCommunication.*;
 
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Inscription.Inscription_1_0_activity;
@@ -28,8 +28,8 @@ public class LogInActivity extends AppCompatActivity {
 
     public void logIn(View view) {
 
-        editTextPseudo = (EditText) findViewById(R.id.editTextWeight);
-        editTextPassword = (EditText) findViewById(R.id.editTextPassword);
+        editTextPseudo = (EditText) findViewById(R.id.editTextOld);
+        editTextPassword = (EditText) findViewById(R.id.editTextNew);
         textViewtest = (TextView) findViewById(R.id.textViewtest);
         String password = editTextPassword.getText().toString();
         String pseudo = editTextPseudo.getText().toString();
@@ -39,7 +39,7 @@ public class LogInActivity extends AppCompatActivity {
 
     public void listenConnect(String id) {
         TextView textViewtest = (TextView) findViewById(R.id.textViewtest);
-        editTextPassword = (EditText) findViewById(R.id.editTextPassword);
+        editTextPassword = (EditText) findViewById(R.id.editTextNew);
         if (Long.valueOf(id) > 0L) {
             ConnectionToTheCoach connectionToTheCoach = new ConnectionToTheCoach();
             User.setPassword(editTextPassword.getText().toString());

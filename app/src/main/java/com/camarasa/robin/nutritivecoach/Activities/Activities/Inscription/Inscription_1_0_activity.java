@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Welcome.LogInActivity;
 import com.camarasa.robin.nutritivecoach.Activities.Check.CheckInscription1Class;
-import com.camarasa.robin.nutritivecoach.Activities.Database.User;
+import com.camarasa.robin.nutritivecoach.Activities.Model.User;
 import com.camarasa.robin.nutritivecoach.Activities.ServeurCommunication.ConnectionToTheCoach;
 import com.camarasa.robin.nutritivecoach.R;
 
@@ -29,8 +29,8 @@ public class Inscription_1_0_activity extends AppCompatActivity {
     }
 
     public void next(View view) {
-        editTextPseudo = (EditText) findViewById(R.id.editTextWeight);
-        editTextPassword = (EditText) findViewById(R.id.editTextPassword);
+        editTextPseudo = (EditText) findViewById(R.id.editTextOld);
+        editTextPassword = (EditText) findViewById(R.id.editTextNew);
         editTextConfirmation = (EditText) findViewById(R.id.editTextConfirmation);
         String pseudo = editTextPseudo.getText().toString();
         String password = editTextPassword.getText().toString();

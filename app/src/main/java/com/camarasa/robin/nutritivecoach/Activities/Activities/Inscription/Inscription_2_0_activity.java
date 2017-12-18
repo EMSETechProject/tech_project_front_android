@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.camarasa.robin.nutritivecoach.Activities.Check.CheckInscription1Class;
 import com.camarasa.robin.nutritivecoach.Activities.Check.CheckInscription2Class;
-import com.camarasa.robin.nutritivecoach.Activities.Database.PhysicalData;
 import com.camarasa.robin.nutritivecoach.Activities.ServeurCommunication.ConnectionToTheCoach;
 import com.camarasa.robin.nutritivecoach.R;
 
@@ -23,7 +21,7 @@ public class Inscription_2_0_activity extends AppCompatActivity {
 
     public void next(View view) {
         EditText editTextAge = (EditText) findViewById(R.id.editTextAge);
-        EditText editTextWeigth = (EditText)findViewById(R.id.editTextWeight);
+        EditText editTextWeigth = (EditText)findViewById(R.id.editTextOld);
         EditText editTextSize = (EditText) findViewById(R.id.editTextSize);
         String weight_string = editTextWeigth.getText().toString();
         String age_string = editTextAge.getText().toString();
@@ -44,7 +42,7 @@ public class Inscription_2_0_activity extends AppCompatActivity {
     }
 
     public void added( ) {
-        Intent intent = new Intent(this, Inscription_3_0_activity.class);
+        Intent intent = new Intent(this, Inscription_4_0_activity.class);
         startActivity(intent);
     }
 }

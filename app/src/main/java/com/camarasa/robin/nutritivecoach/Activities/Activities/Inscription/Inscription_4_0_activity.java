@@ -7,9 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.camarasa.robin.nutritivecoach.Activities.Activities.Welcome.LogInActivity;
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Welcome.WelcomeActivity;
-import com.camarasa.robin.nutritivecoach.Activities.Check.CheckInscription3Class;
 import com.camarasa.robin.nutritivecoach.Activities.Check.CheckInscription4Class;
 import com.camarasa.robin.nutritivecoach.Activities.ServeurCommunication.ConnectionToTheCoach;
 import com.camarasa.robin.nutritivecoach.R;
@@ -23,7 +21,7 @@ public class Inscription_4_0_activity extends AppCompatActivity {
     }
 
     public void next(View view) {
-        EditText editTextWeight = (EditText) findViewById(R.id.editTextWeight);
+        EditText editTextWeight = (EditText) findViewById(R.id.editTextOld);
         String value_string = editTextWeight.getText().toString();
         CheckInscription4Class ch = new CheckInscription4Class();
         if(ch.isok(value_string)) {

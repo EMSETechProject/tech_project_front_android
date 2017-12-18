@@ -42,6 +42,7 @@
     <string name="new_password">New password</string>
     <string name="enter_old_pasword">Enter old password</string>
     <string name="enter_new_password">Enter new password</string>
+    <string name="rate">Rate</string>
 
     <string name="action_settings">Settings</string>
 </resources>

@@ -37,8 +37,8 @@
         android:onClick="add"
         android:text="@string/add"
         android:textColor="@color/colorWrite"
-        app:layout_constraintLeft_toLeftOf="@+id/editTextWeight"
-        app:layout_constraintTop_toBottomOf="@+id/editTextWeight" />
+        app:layout_constraintLeft_toLeftOf="@+id/editTextOld"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOld" />
 
     <TextView
         android:id="@+id/textViewWeight"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextWeight"
+        android:id="@+id/editTextOld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

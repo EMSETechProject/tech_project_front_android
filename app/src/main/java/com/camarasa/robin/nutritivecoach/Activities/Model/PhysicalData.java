@@ -1,4 +1,4 @@
-package com.camarasa.robin.nutritivecoach.Activities.Database;
+package com.camarasa.robin.nutritivecoach.Activities.Model;
 
 /**
  * Created by robin on 10/12/17.

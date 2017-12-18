@@ -17,7 +17,7 @@
         android:text="@string/log_in"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/buttonSubscribe"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNew" />
 
     <Button
         android:id="@+id/buttonSubscribe"
@@ -51,11 +51,11 @@
         android:text="@string/password"
         android:textSize="@dimen/survey_question"
         android:textColor="@color/colorSurvey"
-        app:layout_constraintLeft_toLeftOf="@+id/editTextWeight"
-        app:layout_constraintTop_toBottomOf="@+id/editTextWeight" />
+        app:layout_constraintLeft_toLeftOf="@+id/editTextOld"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOld" />
 
     <EditText
-        android:id="@+id/editTextWeight"
+        android:id="@+id/editTextOld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -66,7 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewWeight" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextNew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

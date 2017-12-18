@@ -24,7 +24,7 @@ public class EnterWeight extends AppCompatActivity {
     }
 
     public void add(View view) {
-        EditText editTextWeight = (EditText) findViewById(R.id.editTextWeight);
+        EditText editTextWeight = (EditText) findViewById(R.id.editTextOld);
         String weight_string = editTextWeight.getText().toString();
         Float weight = Float.parseFloat(weight_string);
         ConnectionToTheCoach connectionToTheCoach = new ConnectionToTheCoach();

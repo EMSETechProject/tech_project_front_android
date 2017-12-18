@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Meal.MealOption;
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Settings.Settings;
 import com.camarasa.robin.nutritivecoach.Activities.Activities.Stats.StatsOptions;
-import com.camarasa.robin.nutritivecoach.Activities.Database.User;
+import com.camarasa.robin.nutritivecoach.Activities.Model.User;
 import com.camarasa.robin.nutritivecoach.R;
 
 

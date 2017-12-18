@@ -5,7 +5,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
     <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
 
@@ -32,12 +35,12 @@
         <activity android:name=".Activities.Activities.Stats.EnterWeight" />
         <activity android:name=".Activities.Activities.Stats.YourStatistics" />
         <activity android:name=".Activities.Activities.Meal.MealOption" />
-        <activity android:name=".Activities.Activities.Meal.AddRecipe" />
         <activity android:name=".Activities.Activities.Meal.FoodData" />
         <activity android:name=".Activities.Activities.Meal.MealIdea" />
         <activity android:name=".Activities.Activities.Settings.Settings" />
         <activity android:name=".Activities.Activities.Settings.SetPassword" />
-        <activity android:name=".Activities.Activities.Settings.SetObjectif"></activity>
+        <activity android:name=".Activities.Activities.Settings.SetObjectif" />
+        <activity android:name=".Activities.Activities.Meal.MealValuation"></activity>
     </application>
 
 </manifest>
